@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//src/com/example/Adapter/UESystemInfo.java=UTF-8
+encoding//src/com/example/Log/Log.java=UTF-8
+encoding//src/com/example/Log/UploadLog2Server.java=UTF-8
+encoding//src/com/example/Task/DownLoadScript.java=UTF-8
+encoding//src/com/example/Task/FTP.java=UTF-8
+encoding//src/com/example/Task/Ping.java=UTF-8
+encoding//src/com/example/Task/Task.java=UTF-8
+encoding//src/com/example/msp7300_client/ServCommuUDP.java=UTF-8
+encoding//src/com/example/msp7300_client/Test_Fragment_view.java=UTF-8
+encoding//src/com/example/sqlite/BaseDao.java=UTF-8
+encoding//src/com/example/sqlite/DBHelper.java=UTF-8
+encoding//src/com/example/update/UpdateManager.java=GBK

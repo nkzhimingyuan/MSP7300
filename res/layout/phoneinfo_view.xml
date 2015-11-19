@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:collapseColumns="2"
+        android:stretchColumns="1" >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/IMEI_Lable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_imei_lable"
+                android:text="@string/strIMEI_Lable"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/IMEI_Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="3dip"
+            android:background="#CCCCCC" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/IMSI_Lable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_imsi_lable"
+                android:text="@string/strIMSI_Lable"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/IMSI_Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+        </TableRow>
+
+                <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="3dip"
+            android:background="#CCCCCC" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/CoreIP_Lable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_imsi_lable"
+                android:text="@string/strCore_Lable"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/CoreIP_Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+        </TableRow>
+        
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="3dip"
+            android:background="#CCCCCC" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/RSRP_Lable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_rsrp_lable"
+                android:text="@string/strRSRP_Lable"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/RSRP_Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="3dip"
+            android:background="#CCCCCC" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/RSRQ_Lable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_rsrq_lable"
+                android:text="@string/strRSRQ_Lable"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/RSRQ_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="3dip"
+            android:background="#CCCCCC" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/SNR_Lable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_snr_lable"
+                android:text="@string/strSNR_Lable"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/SNR_Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="3dip"
+            android:background="#CCCCCC" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/RSSI_Lable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_rssi_lable"
+                android:text="@string/strRSSI_Lable"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/RSSI_Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="3dip"
+            android:background="#CCCCCC" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/NetWorkStat_Lable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_netstate"
+                android:text="@string/strNetWorkStat_Lable"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/NetWorkStat_Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="3dip"
+            android:background="#CCCCCC" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/NetWorkType_Lable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_nettype"
+                android:text="@string/strNetWorkType_Lable"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/NetWorkType_Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+        </TableRow>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="3dip"
+            android:background="#CCCCCC" />
+
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/DLSp_Lable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_dlsp"
+                android:text="@string/strDLSP_Lable"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/DLSp_Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+        </TableRow>
+        
+                <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="3dip"
+            android:background="#CCCCCC" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/ULSp_Lable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_ulsp"
+                android:text="@string/strULSP_Lable"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/ULSp_Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+        </TableRow>
+        
+                <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="3dip"
+            android:background="#CCCCCC" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/Task_Lable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_taskname"
+                android:text="@string/strTASK_Lable"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/Task_Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+        </TableRow>
+        
+                <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="3dip"
+            android:background="#CCCCCC" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/Cmd_Lable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/ic_cmdname"
+                android:text="@string/strCMD_Lable"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/Cmd_Value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

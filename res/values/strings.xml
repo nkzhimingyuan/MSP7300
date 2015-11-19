@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MSP7300</string>
+    <string name="app_version">MSP7300_v1.0.4_11_19</string>
+    <string name="action_settings">更新</string>
+    <string name="action_login">登陆</string>
+    <string name="action_server">设置服务器</string>
+    <string name="action_update">更新</string>
+    <string name="action_info">版本</string>
+    <string name="title_section1">服务器参数</string>
+    <string name="title_section2">测试</string>
+    <string name="title_section3">手机信息</string>
+    <string name="ServerIPLable">服务器地址:</string>
+    <string name="ServerIPView">null</string>
+    <string name="ServerUsrIDLable">用户名:</string>
+    <string name="ServerUsrIDView">null</string>
+    <string name="ServerPwdLable">密码:</string>
+    <string name="ServerPwdView">null</string>
+    <string name="ServerSrcLable">脚本路径:</string>
+    <string name="ServerSrcView">null</string>
+    <string name="strIMEI_Lable">IMEI:</string>
+    <string name="strIMSI_Lable">IMSI:</string>
+    <string name="strCore_Lable">CoreIP:</string>  
+    <string name="strRSRP_Lable">RSRP:</string>
+    <string name="strRSRQ_Lable">RSRQ:</string>
+    <string name="strSNR_Lable">SNR:</string>
+    <string name="strRSSI_Lable">RSSI:</string>
+    <string name="strNetWorkStat_Lable">NetState:</string>
+    <string name="strNetWorkType_Lable">NetType:</string>
+    <string name="strDLSP_Lable">DLSP:</string>
+    <string name="strULSP_Lable">ULSP:</string>
+    <string name="strTASK_Lable">TASK:</string>
+    <string name="strCMD_Lable">CMD:</string>
+    <string name="server_setting">服务器ip:</string>
+    <string name="login_username">用户名:</string>
+    <string name="login_password">密码：</string>
+    <string name="switch_on">打开IE上报</string>
+    <string name="switch_off">关闭IE上报</string>
+    <string name="title_activity_setting">SettingActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="IE_info">设置IE上报：</string>
+    <string name="Software_Update">软件版本</string>
+    <string name="IE_open">IE上报开启中</string>
+    <string name="IE_close">IE上报关闭中</string>
+
+</resources>
